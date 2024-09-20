@@ -15,3 +15,5 @@ console.log(dadosCliente4);
 
 const array1 : readonly string[] = ['wesley', 'moraes'];
 const array2 : ReadonlyArray<string> = ['wesley', 'moraes'];
+
+//const imutavel : readonly string = 'Wesley'
