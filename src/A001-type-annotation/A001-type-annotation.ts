@@ -18,7 +18,7 @@ let arrayDeStrings2: string[] = ["Wes", "Luh", "Juh"];
 
 
 //Objetos
-let pessoa: {nome: string, idade: number, adulto?: boolean} = {
+export let pessoa: {nome: string, idade: number, adulto?: boolean} = {
     nome: 'Wess',
     idade: 29,
 }
@@ -35,3 +35,5 @@ const result = soma(2, 2);
 
 //type aliance
 const soma2: (x: number, y: number) => number = (x, y ) => x + y;
+
+
