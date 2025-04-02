@@ -24,7 +24,7 @@ const password2 = document.querySelector('.password2');
 ;
 form.addEventListener('submit', function (event) {
     event.preventDefault();
-    hideErrorMessages(this); //O this se refere ao prorprio form
+    hideErrorMessages(this);
     checkForEmptyField(username, password, password2);
     checkEmail(email);
     checkEqualPasswords(password, password2);
